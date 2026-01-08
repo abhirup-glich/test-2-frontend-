@@ -4,18 +4,18 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/api/:splat"
+  to = "https://abhirup-glich.github.io/test-2-backend-/api/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/auth/*"
-  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/auth/:splat"
+  to = "https://abhirup-glich.github.io/test-2-backend-/auth/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/user/*"
-  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/user/:splat"
+  to = "https://abhirup-glich.github.io/test-2-backend-/user/:splat"
   status = 200
   force = true
