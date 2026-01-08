@@ -1,0 +1,21 @@
+[build]
+  publish = "."
+  command = "npm run build"
+
+[[redirects]]
+  from = "/api/*"
+  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/auth/*"
+  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/auth/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/user/*"
+  to = "REPLACE_WITH_YOUR_RENDER_BACKEND_URL/user/:splat"
+  status = 200
+  force = true
